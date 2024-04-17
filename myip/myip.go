@@ -21,7 +21,7 @@ func extractLine(s string, matches ...string) string {
 			}
 		}
 	}
-	return strings.TrimSuffix(r.String(), ",")
+	return strings.TrimSuffix(r.String(), ", ")
 }
 
 func Myip() {
