@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 
 	"github.com/cwlu2001/my-e-app-go/entry"
-	"github.com/cwlu2001/my-e-app-go/hostname"
 	"github.com/cwlu2001/my-e-app-go/myip"
+	"github.com/cwlu2001/my-e-app-go/systemInfo"
 	"github.com/cwlu2001/my-e-app-go/systemdDetectVirt"
 )
 
@@ -17,10 +17,10 @@ func selectExe(args []string) {
 		entry.Entry()
 
 	case "hostnamectl":
-		hostname.Hostnamectl()
+		systemInfo.Hostnamectl()
 
 	case "lsb_release":
-		hostname.Lsb_release()
+		systemInfo.Lsb_release()
 
 	case "myip":
 		myip.Myip()
