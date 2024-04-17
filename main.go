@@ -36,7 +36,7 @@ func selectExe(args []string) {
 	case "systemctl":
 		//null function
 	default:
-		msg := "bash: " + excName + ": command not found\n"
+		msg := "sh: " + excName + ": command not found\n"
 		print(msg)
 	}
 }
