@@ -13,7 +13,7 @@ import (
 func selectExe(args []string) {
 	excName := filepath.Base(args[0])
 	switch excName {
-	case "init":
+	case "__tini":
 		entry.Entry()
 
 	case "hostnamectl":
