@@ -11,9 +11,9 @@ import (
 )
 
 var hostLists = [][]string{
-	{"Ubuntu", "Ubuntu 22.04.3 LTS", "Linux 5.15.148-1-current", "22.04", "jammy"},
+	{"Ubuntu", "Ubuntu 22.04.3 LTS", "Linux 6.6.23-current", "22.04", "jammy"},
 	{"Debian", "Debian GNU/Linux 12 (bookworm)", "Linux 6.1.77-current", "12", "bookworm"},
-	{"Ubuntu", "Ubuntu 20.04.6 LTS", "Linux 5.4.168-3-current", "20.04", "focal"},
+	{"Linuxmint", "Linux Mint 21.3", "Linux 5.15.0-91-generic", "21.3", "virginia"},
 	{"Debian", "Debian GNU/Linux 11 (bullseye)", "Linux 5.10.109-current", "11", "bullseye"},
 }
 
