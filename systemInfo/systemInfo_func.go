@@ -14,7 +14,7 @@ var hostLists = [][]string{
 	{"Ubuntu", "Ubuntu 22.04.3 LTS", "Linux 6.6.23-current", "22.04", "jammy"},
 	{"Debian", "Debian GNU/Linux 12 (bookworm)", "Linux 6.1.77-current", "12", "bookworm"},
 	{"Linuxmint", "Linux Mint 21.3", "Linux 5.15.0-91-generic", "21.3", "virginia"},
-	{"Debian", "Debian GNU/Linux 11 (bullseye)", "Linux 5.10.109-current", "11", "bullseye"},
+	{"Ubuntu", "Ubuntu 24.04 LTS", "Linux 6.8.0-31-generic", "24.04", "noble"},
 }
 
 func readFile(file string) []byte {
